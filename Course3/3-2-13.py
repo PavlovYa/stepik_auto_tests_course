@@ -32,7 +32,7 @@ class TestAbs(unittest.TestCase):
 
         finally:
 
-            time.sleep(10)
+            time.sleep(1)
             browser.quit()
 
     def test_abs2(self):
@@ -62,7 +62,7 @@ class TestAbs(unittest.TestCase):
 
         finally:
 
-            time.sleep(10)
+            time.sleep(1)
             browser.quit()
 
 unittest.main()
